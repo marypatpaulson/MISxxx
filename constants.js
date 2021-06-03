@@ -2,11 +2,17 @@
 // this file contains your first name, last name and StarID to personalize your website
 // save this file as constants.js in the course root folder
 
-var xFirstName = "Mary";
+var xFirstName = "MaryPat";
 
 var xLastName = "Paulson";
 
 var xStarID = "mp5678pm";
+
+function setPersonalInfo() {
+    document.getElementById("FirstName").value = xFirstName;
+    document.getElementById("LastName").value = xLastName;
+    document.getElementById("pin").value = xStarID;
+}
 
 // PgP 11/17/2019
 // Must load each file manually for each student, because they do not necessarily have VPN access to T:
